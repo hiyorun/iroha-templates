@@ -1,23 +1,25 @@
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
 
 [Colors:Button]
-BackgroundAlternate = {{onPrimaryContainer.r}},{{onPrimaryContainer.g}},{{onPrimaryContainer.b}}
-BackgroundNormal    = {{onPrimaryContainer.r}},{{onPrimaryContainer.g}},{{onPrimaryContainer.b}}
-ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+BackgroundNormal    = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
+BackgroundAlternate = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
+ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
 DecorationFocus     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
 DecorationHover     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
 
 [Colors:Selection]
-BackgroundNormal    = {{ primaryContainer.r }},{{ primaryContainer.g }},{{ primaryContainer.b }}
+BackgroundNormal    = {{ secondary.r }},{{ secondary.g }},{{ secondary.b }}
 ForegroundNormal    = {{ onSecondary.r }},{{ onSecondary.g }},{{ onSecondary.b }}
 
 [Colors:View]
-BackgroundAlternate = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
-BackgroundNormal    = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
-ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+BackgroundAlternate = {{ surface.r }},{{ surface.g }},{{ surface.b }}
+BackgroundNormal    = {{ surface.r }},{{ surface.g }},{{ surface.b }}
+ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
 
 [Colors:Window]
-BackgroundNormal    = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
-ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+BackgroundNormal    = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
+ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
 
 [General]
 Name                = Dynamic System
