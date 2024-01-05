@@ -1,0 +1,23 @@
+
+[Colors:Button]
+BackgroundAlternate = {{onPrimaryContainer.r}},{{onPrimaryContainer.g}},{{onPrimaryContainer.b}}
+BackgroundNormal    = {{onPrimaryContainer.r}},{{onPrimaryContainer.g}},{{onPrimaryContainer.b}}
+ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+DecorationFocus     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
+DecorationHover     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
+
+[Colors:Selection]
+BackgroundNormal    = {{ primaryContainer.r }},{{ primaryContainer.g }},{{ primaryContainer.b }}
+ForegroundNormal    = {{ onSecondary.r }},{{ onSecondary.g }},{{ onSecondary.b }}
+
+[Colors:View]
+BackgroundAlternate = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
+BackgroundNormal    = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
+ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+
+[Colors:Window]
+BackgroundNormal    = {{ onSecondaryContainer.r }},{{ onSecondaryContainer.g }},{{ onSecondaryContainer.b }}
+ForegroundNormal    = {{ onPrimary.r }},{{ onPrimary.g }},{{ onPrimary.b }}
+
+[General]
+Name                = Dynamic System
