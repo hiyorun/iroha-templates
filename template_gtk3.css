@@ -1,6 +1,6 @@
 @define-color accent_color {{primary.rgba}};
-@define-color accent_bg_color {{primary.rgba}};
-@define-color accent_fg_color {{onPrimary.rgba}};
+@define-color accent_bg_color {{surfaceVariant.rgba}};
+@define-color accent_fg_color {{onSurface.rgba}};
 @define-color destructive_color {{error.rgba}};
 @define-color destructive_bg_color {{errorContainer.rgba}};
 @define-color destructive_fg_color {{onErrorContainer.rgba}};
@@ -15,7 +15,7 @@
 @define-color error_fg_color {{onErrorContainer.rgba}};
 @define-color window_bg_color {{surface.rgba}};
 @define-color window_fg_color {{onSurface.rgba}};
-@define-color view_bg_color {{secondaryContainer.rgba}};
+@define-color view_bg_color {{surface.rgba}};
 @define-color view_fg_color {{onSurface.rgba}};
 @define-color headerbar_bg_color {{secondaryContainer.rgba}};
 @define-color headerbar_fg_color {{onSecondaryContainer.rgba}};

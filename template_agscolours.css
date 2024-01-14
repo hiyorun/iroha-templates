@@ -1,0 +1,9 @@
+@define-color primary {{ primary.rgba }};
+@define-color secondary {{ secondary.rgba }};
+@define-color tertiary {{ tertiary.rgba }};
+@define-color on-primary {{ onPrimary.rgba }};
+@define-color on-secondary {{ onSecondary.rgba }};
+@define-color on-tertiary {{ onTertiary.rgba }};
+@define-color surface {{ surface.rgba }};
+@define-color surface-variant {{ surfaceVariant.rgba }};
+@define-color on-surface {{ onSurface.rgba }};

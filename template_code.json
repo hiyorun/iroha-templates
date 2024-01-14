@@ -1,0 +1,37 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#{{ surfaceContainer.hex }}",
+        "activityBar.foreground": "#{{ onSurface.hex }}",
+        "activityBar.inactiveForeground": "#{{ onSurfaceVariant.hex }}",
+        "activityBarBadge.background": "#{{ tertiary.hex }}",
+        "activityBarBadge.foreground": "#{{ onTertiary.hex }}",
+
+        "debugToolBar.background": "#{{ surfaceContainer.hex }}",
+
+        "editor.background": "#{{ surface.hex }}",
+
+        "editorCursor.foreground": "#{{ tertiary.hex }}",
+
+        "editorGutter.background":"#{{ surface.hex }}",
+
+        "editorGroupHeader.tabsBackground":"#{{ surface.hex }}",
+
+        "panel.background":"#{{ surface.hex }}",
+
+        "sideBar.background": "#{{ surfaceContainer.hex }}",
+        "sideBar.foreground": "#{{ onSurface.hex }}",
+
+        "sideBarSectionHeader.background":"#{{ surfaceContainer.hex }}",
+
+        "statusBar.background":"#{{ surfaceContainer.hex }}",
+        "statusBar.foreground": "#{{ onSurface.hex }}",
+        "statusBar.noFolderBackground":"#{{ surfaceContainer.hex }}",
+
+        "tab.activeBorderTop":"#{{ surface.hex }}",
+        
+        "terminal.background": "#{{ surfaceContainer.hex }}",
+        "terminal.ansiBrightCyan": "#{{ primaryContainer.hex }}",
+        "terminal.ansiCyan": "#{{ primary.hex }}"
+    },
+    "workbench.colorTheme": "Visual Studio Light"
+}
