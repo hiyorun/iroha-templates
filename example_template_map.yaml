@@ -1,0 +1,15 @@
+templates:
+  - template: /path/to/iroha-templates/template_tmux.sh
+    output: /home/yourusername/.config/tmux-powerline/themes/you.sh
+  - template: /path/to/iroha-templates/template_lush.txt
+    output: /home/yourusername/.config/nvim/lua/extras/lush/iroha/lua/lush_theme/iroha.lua
+  - template: /path/to/iroha-templates/template_hyprlock.conf
+    output: /home/yourusername/.config/hypr/hyprlock.conf
+  - template: /path/to/iroha-templates/template_alacritty.toml
+    output: /home/yourusername/.config/alacritty/alacritty.toml
+  - template: /path/to/iroha-templates/template_gtk3.css
+    output: /home/yourusername/.config/gtk-3.0/colours.css
+  - template: /path/to/iroha-templates/template_krita.colors
+    output: /home/yourusername/.local/share/krita/color-schemes/dynamic.colors
+  - template: /path/to/iroha-templates/template_wal.json
+    output: /home/yourusername/.cache/wal/colors.json

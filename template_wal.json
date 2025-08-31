@@ -1,0 +1,27 @@
+{
+  "wallpaper": "/home/hiyo/.config/wpg/wallpapers/[200%][3x]1671897893815~2.jpg",
+  "alpha": "100",
+  "special": {
+    "background": "{{surface.hex}}",
+    "foreground": "{{onSurface.hex}}",
+    "cursor": "{{onSurface.hex}}"
+  },
+  "colors": {
+    "color0": "{{surface.hex}}",
+    "color1": "{{onSurface.hex}}",
+    "color2": "{{primary.hex}}",
+    "color3": "{{onPrimary.hex}}",
+    "color4": "{{secondary.hex}}",
+    "color5": "{{onSecondary.hex}}",
+    "color6": "{{tertiary.hex}}",
+    "color7": "{{onTertiary.hex}}",
+    "color8": "{{surfaceVariant.hex}}",
+    "color9": "{{onSurfaceVariant.hex}}",
+    "color10": "{{primaryContainer.hex}}",
+    "color11": "{{secondaryContainer.hex}}",
+    "color12": "{{tertiaryContainer.hex}}",
+    "color13": "{{outline.hex}}",
+    "color14": "{{outlineVariant.hex}}",
+    "color15": "{{inverseSurface.hex}}"
+  }
+}

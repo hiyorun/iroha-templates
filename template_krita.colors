@@ -2,9 +2,9 @@
 ChangeSelectionColor=false
 
 [Colors:Button]
-BackgroundNormal    = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
-BackgroundAlternate = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
-ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
+BackgroundNormal    = {{ primaryContainer.r }},{{ primaryContainer.g }},{{ primaryContainer.b }}
+BackgroundAlternate = {{ primaryContainer.r }},{{ primaryContainer.g }},{{ primaryContainer.b }}
+ForegroundNormal    = {{ onPrimaryContainer.r }},{{ onPrimaryContainer.g }},{{ onPrimaryContainer.b }}
 DecorationFocus     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
 DecorationHover     = {{ tertiary.r }},{{ tertiary.g }},{{ tertiary.b }}
 
@@ -13,12 +13,12 @@ BackgroundNormal    = {{ secondary.r }},{{ secondary.g }},{{ secondary.b }}
 ForegroundNormal    = {{ onSecondary.r }},{{ onSecondary.g }},{{ onSecondary.b }}
 
 [Colors:View]
-BackgroundAlternate = {{ surface.r }},{{ surface.g }},{{ surface.b }}
-BackgroundNormal    = {{ surface.r }},{{ surface.g }},{{ surface.b }}
-ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
+BackgroundAlternate = {{ surfaceVariant.r }},{{ surfaceVariant.g }},{{ surfaceVariant.b }}
+BackgroundNormal    = {{ surfaceVariant.r }},{{ surfaceVariant.g }},{{ surfaceVariant.b }}
+ForegroundNormal    = {{ onSurfaceVariant.r }},{{ onSurfaceVariant.g }},{{ onSurfaceVariant.b }}
 
 [Colors:Window]
-BackgroundNormal    = {{ surfaceContainer.r }},{{ surfaceContainer.g }},{{ surfaceContainer.b }}
+BackgroundNormal    = {{ surface.r }},{{ surface.g }},{{ surface.b }}
 ForegroundNormal    = {{ onSurface.r }},{{ onSurface.g }},{{ onSurface.b }}
 
 [General]
